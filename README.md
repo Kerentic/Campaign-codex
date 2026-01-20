@@ -32,12 +32,46 @@ The project follows a **monorepo** structure to encourage shared contracts, cons
 
 ## 🗂 Monorepo Structure
 apps/
+
 web/ # Frontend (Next.js)
+
 api/ # Backend (NestJS)
+
 packages/
+
 shared/ # Shared types, DTOs, schemas
+
 docs/
+
 architecture.md
+
 adr/
+
 docker-compose.yml
+
+
+---
+
+## 👥 Core Features (MVP)
+
+### Campaigns
+- Create and manage RPG campaigns
+- Role-based access (DM / Player)
+
+### Characters
+- Basic character sheets
+- Ownership and campaign binding
+
+### Narrative Logs
+- Session-based story entries
+- Multiple player perspectives
+- Canon vs personal interpretations
+
+---
+
+## 🚀 Local Development (coming soon)
+
+```bash
+docker compose up
+
 
