@@ -31,4 +31,13 @@ The project follows a **monorepo** structure to encourage shared contracts, cons
 ---
 
 ## 🗂 Monorepo Structure
+apps/
+web/ # Frontend (Next.js)
+api/ # Backend (NestJS)
+packages/
+shared/ # Shared types, DTOs, schemas
+docs/
+architecture.md
+adr/
+docker-compose.yml
 
